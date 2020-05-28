@@ -13,7 +13,7 @@ import com.google.common.base.Charsets;
 import org.apache.hadoop.mapred.*;
 
 /**
- * @author 吴长飞
+ * @author wcf
  * @create 2020-05-14 15:11
  **/
 

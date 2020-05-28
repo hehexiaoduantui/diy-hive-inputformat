@@ -26,7 +26,7 @@ import org.apache.hadoop.mapreduce.lib.input.UncompressedSplitLineReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 /**
- * @author 吴长飞
+ * @author wcf
  * @create 2020-05-14 15:13
  **/
 
