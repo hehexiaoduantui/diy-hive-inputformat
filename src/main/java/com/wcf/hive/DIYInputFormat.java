@@ -44,6 +44,8 @@ public class DIYInputFormat extends FileInputFormat<LongWritable, Text>
             throws IOException {
 
         reporter.setStatus(genericSplit.toString());
+        //为了和原来的参数不冲突，这个key可以随意自行设置
+//        String delimiter = job.get("textinputformat.record.line.delimiter");
         String delimiter = "#^#@%$#";
         byte[] recordDelimiterBytes = null;
         if (null != delimiter) {
